@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Получение информации</title>
+</head>
+
+<body class="page">
+    <h2 class="heading">Получение информации</h2>
+    <main class="wrapper">
+        <div class="container">
+            <div class="container__heading">Кого или что будем искать?</div>
+            <div class="container__input">
+                <select class="container__input__options option" name="options" id="options">
+                    <option class="option-name option-name--1" value="planets">Планеты</option>
+                    <option class="option-name option-name--2" value="people">Людей</option>
+                    <option class="option-name option-name--3" value="films">Фильмы</option>
+                    <option class="option-name option-name--4" value="species">Биологические виды</option>
+                </select>
+                <input class="container__input__id" type="number" placeholder="Введите номер">
+                <button class="container__input__button">Вперед</button>
+            </div>
+        </div>
+        <div class="response-container"></div>
+        <div class="error-container"></div>
+    </main>
+    <script type="module" src="./script/index.js"></script>
+</body>
+
+</html>
