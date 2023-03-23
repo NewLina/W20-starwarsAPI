@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Dashboard</title>
+</head>
+
+<body class="page">
+    <main class="wrapper">
+        <div class="row navigation">
+            <div class="col dropdown-container navigation__dropdown">
+                <div class="navigation__logo"> <img class="navigation__logo-image" src="./assets/images/monitor.png"
+                        alt="logo"> LOGO</div>
+
+                <div class="dropdown-container__name"> Project </div>
+
+                <div class="dropdown dropdown-center">
+                    <a class="btn btn-warning dropdown-toggle btn-lg" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Hope project
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Project1</a></li>
+                        <li><a class="dropdown-item" href="#">Project2</a></li>
+                        <li><a class="dropdown-item" href="#">Project3</a></li>
+                    </ul>
+                </div>
+
+                <ul class="navigation__menu nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Backlog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Active sprint</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-8 container">
+                <p class="container__title">Dashboard</p>
+                <div class="container__date"></div>
+
+                <div class="container__intro card border-warning text-bg-dark">
+                    <img src="./assets/images/back.png" class="card-img container__intro-image" alt="...">
+                    <div class="card-img-overlay">
+                        <p class="title-text">Welcome Dear Developer!</p>
+                        <p class="card-text">You have 2 projects to finish. And already completed 68% from your monthly
+                            level. Keep going to your goal!</p>
+                        <a href="#" class="card-button btn btn-lg btn-warning">More</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col profile">
+                3 of 3
+            </div>
+        </div>
+    </main>
+    <script type="module" src="./script/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
